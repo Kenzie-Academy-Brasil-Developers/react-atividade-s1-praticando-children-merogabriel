@@ -1,0 +1,27 @@
+body {
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: whitesmoke;
+  background-color: black;
+}
+
+.CenteredCard {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.Card {
+  background-color: mediumpurple;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  border: grey 3px solid;
+  text-align: center;
+}
